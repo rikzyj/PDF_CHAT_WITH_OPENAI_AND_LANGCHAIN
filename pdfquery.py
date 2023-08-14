@@ -9,7 +9,7 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 
 # API key from openai
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "OPENAI_API_KEY"
 
 # location of the pdf file.
 reader = PdfReader(input("Paste the file path of the PDF you would like to chat with :"))
